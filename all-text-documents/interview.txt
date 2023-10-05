@@ -1,0 +1,44 @@
+
+
+
+import React
+
+
+  const App=()=>{
+   const [data,setData]= useState([])
+
+
+
+return(
+<div>
+  {data.map((e,index))=>{
+
+      if(e.id===2){
+           <p>{e}</p>
+
+       }
+
+)}}
+
+<button>Get</button>
+
+</div>
+)
+}
+export default App;
+
+
+1.what are hooks and what is used?
+2.what is usestate hook ?
+3.what virtural dom vs real dom?
+4.what are life cycle method in classcomponents?
+5.what is use of virtual dom?
+6.how to maintain gobally state before introduced hooks?
+7.what is event handlers and addeventlisteners?
+8.what are life cycle method in function components?
+9.write a arrow function ?
+10.write a program of to print array elements  with the map method in ptag?
+11.write a program of to print particular index array element with the  map method in p tag?
+12.differences between arrow functions and normal functions?
+
+
